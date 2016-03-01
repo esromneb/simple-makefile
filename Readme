@@ -8,10 +8,10 @@ debug it like this:
 
 ddd ./proj
 
-after the program comes type, this in the box below
+after the program comes up  and is ready to run, type this in the box below
 
 b 16
 r
 
-the program should break, now doulbe click on the table variable, and in the space above a GUI table should appear
-type "cont", or press the gui button to finish the program
+the program should break, now double click on the table variable in the code, and in the space above a GUI table should appear
+type "cont", or press the gui button with the same name to finish the program
