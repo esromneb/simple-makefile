@@ -14,3 +14,4 @@ b 16
 r
 
 the program should break, now doulbe click on the table variable, and in the space above a GUI table should appear
+type "cont", or press the gui button to finish the program
