@@ -1,13 +1,14 @@
 #include <stdio.h>
 
+#define __COUNT__ (16)
+
 int main(void)
 {
 	int i;
-	const c = 16;
-	int table[c];
+	int table[__COUNT__];
 
 	// init the table
-	for(i = 0; i < c; i++)
+	for(i = 0; i < __COUNT__; i++)
 	{
 		table[i] = i*i;
 	}
@@ -15,7 +16,7 @@ int main(void)
 	printf("hello world\nSquared table\n\n");
 
 	// iterate and print table
-	for(i = 0; i < c; i++)
+	for(i = 0; i < __COUNT__; i++)
 	{
 		printf("Table index %d is set to %d\n", i, table[i]);
 	}

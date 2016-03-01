@@ -1,0 +1,16 @@
+make the project with "make"
+
+run it with "./proj"
+
+
+
+debug it like this:
+
+ddd ./proj
+
+after the program comes type, this in the box below
+
+b 16
+r
+
+the program should break, now doulbe click on the table variable, and in the space above a GUI table should appear
